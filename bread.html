@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Anwar's Bread Integration</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="extraCredit.js"></script>
+  <script id='script' src="https://checkout-sandbox.getbread.com/bread.js" data-api-key="7101ea30-8ae3-47ab-a8bd-235860d36f3e"></script>
+  </head>
+  <body>
+    <div class='page'>
+      <div id="product">
+        <div id="title"><h3>Vinyl Set</h1></div>
+        <div ><img src="https://cdn.shopify.com/s/files/1/0135/1204/8699/products/KanyeWestFantasy_1024x.png?v=1590697985" id="picture"></div>
+        <div id="price"><p>$100.00</p></div>
+      </div>
+      <div id="bread-checkout-btn" style="height:60px; width:400px;">
+      </div>
+      <div id="button">
+        <br>
+       <button type = "button" id="link">Click Here to generate a Bread payment link</button>
+      </div>
+      <div id='messageBox' style="display: none;"><p id="message"></p></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
