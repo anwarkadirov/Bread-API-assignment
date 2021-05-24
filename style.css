@@ -1,0 +1,23 @@
+#picture{
+	height: 200px;
+	width: 200px;
+}
+#link{
+	background:#FFFFFF;
+	color:#ff0000;
+	border:5px solid #ff0000;
+	border-radius:4px;
+	display:table-cell;
+	font-family:"Lucida Console", "Courier New", monospace;
+	font-size:16px;
+	font-weight:400;text-align:center;vertical-align:middle;transition:all .3s ease}
+}
+#link,body,html{
+	height:100%;
+	margin:0;
+	width:100%
+}
+
+body{
+	display:table;
+}
